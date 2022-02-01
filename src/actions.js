@@ -10,6 +10,8 @@ export const setSearchField = (text) => ({
 	payload: text
 })
 
+/*try lang*/
+
 export const requestRobots = () => (dispatch) => {
 	dispatch({ type: REQUEST_ROBOTS_PENDING});
 	fetch('https://jsonplaceholder.typicode.com/users')
